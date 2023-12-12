@@ -6,7 +6,7 @@ const { pageTitle } = Astro.props;
 <BaseLayout pageTitle={'This is my home page'}>
   <h2>My awesome blog website built with Astro</h2>
     <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari", 'Hallaien', 'Yo', 'Bruh', 'Bro']} />
-  <div class="image-container"><img src="https://uploads-ssl.webflow.com/631c62801b9cda9289d27d4d/633b5aecfe2f025cf2e30541_Spreken-poster-gym.webp" alt="bilde av sprek og blid"></div>
+  <div class="image-container"><img src="https://uploads-ssl.webflow.com/631c62801b9cda9289d27d4d/633b5aecfe2f025cf2e30541_Spreken-poster-gym.webp" width="640" height="360" alt="bilde av sprek og blid"></div>
 </BaseLayout>
 
 <style>
